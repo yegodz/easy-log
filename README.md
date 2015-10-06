@@ -3,7 +3,7 @@ A lightweight logging library usable in node/CLI or in a browserjavascript app.
 
 > Because sometimes it is easier to re-invent the wheel than to upgrade your axle :-)
 
-Easy-Log is less than 200 lines and has no other dependency, making it ideal for usage in a library that may be used in a node-CLI or in a web application running javascript in the browser.
+Easy-Log is less than 200 lines and requires only `path` and `util`, making it ideal for usage in a library that may be used in a node-CLI or in a web application through `browserify` running in the browser.
 
 You can instantiate a logging function that will thereafter output a formatted log statement with each invocation, including a timestamp.
 
